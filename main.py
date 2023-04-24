@@ -9,3 +9,7 @@ def caesar_cipher_enc(plaintext, shift):
             #Leave  non alphabetic char unchanged 
          ciphertext += char
         return ciphertext
+    
+    message = "HELLO WORLD"
+    encrypted_message = caesar_cipher_enc(message,3)
+    print(encrypted_message)
